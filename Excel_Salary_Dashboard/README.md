@@ -47,10 +47,20 @@ This project is built upon a 2023 real-world data science job dataset. It includ
 ## 🧮 Formulas and Functions 
 ### 💵 Median Salary by Job Titles
 ```
-### Key Formula Used
-Below is the main formula used for data calculation in the dashboard:
-```excel
-=SUMIFS(C2:C100, A2:A100, "Data Analyst", B2:B100, "Senior")
+=MEDIAN(
+IF(
+    (jobs[job_title_short]=A2)*
+    (jobs[job_country]=country)*
+    (ISNUMBER(SEARCH(type,jobs[job_schedule_type])))*
+    (jobs[salary_year_avg]<>0),
+    jobs[salary_year_avg]
+)
+)
+```
+* 🔍 **Multi-Criteria Filtering** – Checks job title, country, schedule type, and excludes blank salaries.
+* 📊 **Array Formula** – Utilizes MEDIAN() function with nested IF() statement to analyze an array.
+* 🎯 **Tailored Insights** – Provides specific salary information for job titles, regions, and schedule types.
+* 🔢 **Formula Purpose** – This formula populates the table below, returning the median salary based on job title, country, and type specified.
 
 
 
