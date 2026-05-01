@@ -36,11 +36,21 @@ This project is built upon a 2023 real-world data science job dataset. It includ
 * 📉 **Data Organization** – Applied sorting to job titles in descending order for improved readability.
 * 💡 **Insights Gained** – This enables quick identification of salary trends, noting that Senior roles and Engineers are higher-paying than Analyst roles.
 
+### 🌍 Country Median Salaries - Map Chart 
 <img width="732" height="417" alt="Zapisz 2" src="https://github.com/user-attachments/assets/6b4600fc-b13d-454e-b31a-04830ad7c812" />
 
-### 🌍 Country Median Salaries - Map Chart 
-* 🛠️ 
+* 🛠️ **Excel Features** –  Utilized Excel's map chart feature to plot median salaries globally.
+* 🎨 **Design Choice** –  Color-coded map for visual differrentation of salary levels across regions.
+* 📊 **Data Representation** – Plotted median salary for each country with available data.
+* 💡 **Insights Gained** –  Enables quick grasp of global salary disparities and highlights high/low salary regions.
 
+## 🧮 Formulas and Functions 
+### 💵 Median Salary by Job Titles
+```
+### Key Formula Used
+Below is the main formula used for data calculation in the dashboard:
+```excel
+=SUMIFS(C2:C100, A2:A100, "Data Analyst", B2:B100, "Senior")
 
 
 
