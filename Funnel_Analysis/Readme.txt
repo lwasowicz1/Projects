@@ -1,5 +1,5 @@
 Projekt zawiera analizę ścieżki zakupowej użytkowników w środowisku e-commerce. Analiza została przeprowadzona na danych testowych z ostatnich 30 dni
-od ostatniej instancji w wykorzystanym zbiorze danych przy użyciu SQL (BigQuery). Celem tego projektu było zidentyfikowanie miejsc największej utraty
+od czasu ostatniej instancji w wykorzystanym zbiorze danych przy użyciu SQL (BigQuery). Celem tego projektu było zidentyfikowanie miejsc największej utraty
 użytkowników jak i ocena rentowności źródeł ruchu.
 
 W analizie wykorzystano: 
