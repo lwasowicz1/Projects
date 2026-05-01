@@ -62,5 +62,41 @@ IF(
 * 🎯 **Tailored Insights** – Provides specific salary information for job titles, regions, and schedule types.
 * 🔢 **Formula Purpose** – This formula populates the table below, returning the median salary based on job title, country, and type specified.
 
+🍽️ Background Table
+<img width="539" height="452" alt="Zapisz 3" src="https://github.com/user-attachments/assets/ee1072b4-e0b5-4ebd-a2a7-bfc8021809a0" />
+
+📉 Dashboard Implementation
+<img width="633" height="729" alt="Zapisz 4" src="https://github.com/user-attachments/assets/24773383-bd09-4e9e-a202-21504dd65ef7" />
+
+## ⏰ Count of Job Schedule Type
+```
+=FILTER(J2#,(NOT(ISNUMBER(SEARCH("and",J2#))+ISNUMBER(SEARCH(",",J2#))))*(J2#<>0))
+```
+* 🔍 **Unique List Generation** – This Excel formula below employs the FILTER() function to exclude entries containing "and" or commas, and omit zero values.
+* 🔢 **Formula Purpose** – This formula populates the table below, which gives us a list of unique job schedule types.
+
+🍽️ Background Table
+<img width="356" height="227" alt="Zapisz 5" src="https://github.com/user-attachments/assets/28ba4782-e34c-41bd-8cf7-e784090b05db" />
+
+📉 Dashboard Implementation
+<img width="617" height="767" alt="Zapisz 6" src="https://github.com/user-attachments/assets/9a23402a-7fb5-4610-a1c0-073777069a75" />
+
+## ❎ Data Validation
+### 🔍 Filtered List
+* 🔒 **Enhanced Data Validation** –  Implementing the filtered list as a data validation rule under the Job Title, Country, and Type option in the Data tab ensures:
+  * 🎯 User input is restricted to predefined, validated schedule types
+  * 🚫 Incorrect or inconsistent entries are prevented
+  * 👥 Overall usability of the dashboard is enhanced
+
+# Conclusion 
+I created this dashboard to showcase insights into salary trends across various data-related job titles. Utilizing data from an Excel course, this dashboard allows users to make informed decisions about their career paths. Exploring the functionalities to understand how location and job type influence salaries.
+
+
+
+
+
+
+
+
 
 
