@@ -32,7 +32,7 @@ This project is built upon a 2023 real-world data science job dataset. It includ
 <img width="906" height="554" alt="Zapisz" src="https://github.com/user-attachments/assets/db3d2981-6088-433e-9285-d3660ec42d8a" />
 
 * 🛠️ **Excel Features** – Integrated custom-formatted bar charts and streamlined layout to maximize visual clarity.
-* 🎨 **Design Choice** – Implemented horizontal bar charts to faciliate a direct and intuitive comparison of median salaries.
+* 🎨 **Design Choice** – Implemented horizontal bar charts to facilitate a direct and intuitive comparison of median salaries.
 * 📉 **Data Organization** – Applied sorting to job titles in descending order for improved readability.
 * 💡 **Insights Gained** – This enables quick identification of salary trends, noting that Senior roles and Engineers are higher-paying than Analyst roles.
 
@@ -40,7 +40,7 @@ This project is built upon a 2023 real-world data science job dataset. It includ
 <img width="732" height="417" alt="Zapisz 2" src="https://github.com/user-attachments/assets/6b4600fc-b13d-454e-b31a-04830ad7c812" />
 
 * 🛠️ **Excel Features** –  Utilized Excel's map chart feature to plot median salaries globally.
-* 🎨 **Design Choice** –  Color-coded map for visual differrentation of salary levels across regions.
+* 🎨 **Design Choice** –  Color-coded map for visual differentiation of salary levels across regions.
 * 📊 **Data Representation** – Plotted median salary for each country with available data.
 * 💡 **Insights Gained** –  Enables quick grasp of global salary disparities and highlights high/low salary regions.
 
@@ -73,7 +73,7 @@ IF(
 =FILTER(J2#,(NOT(ISNUMBER(SEARCH("and",J2#))+ISNUMBER(SEARCH(",",J2#))))*(J2#<>0))
 ```
 * 🔍 **Unique List Generation** – This Excel formula below employs the FILTER() function to exclude entries containing "and" or commas, and omit zero values.
-* 🔢 **Formula Purpose** – This formula populates the table below, which gives us a list of unique job schedule types.
+* 🔢 **Formula Purpose** – This formula populates the table below, which provides a list of unique job schedule types.
 
 🍽️ Background Table
 <img width="356" height="227" alt="Zapisz 5" src="https://github.com/user-attachments/assets/28ba4782-e34c-41bd-8cf7-e784090b05db" />
@@ -89,7 +89,7 @@ IF(
   * 👥 Overall usability of the dashboard is enhanced
 
 # Conclusion 
-I created this dashboard to showcase insights into salary trends across various data-related job titles. Utilizing data from an Excel course, this dashboard allows users to make informed decisions about their career paths. Exploring the functionalities to understand how location and job type influence salaries.
+I created this dashboard to provide insights into salary trends across various data-related job titles. Using data sourced from an Excel course, this dashboard allows users to make informed decisions about their career paths. Exploring the functionalities to understand how location and job type influence salaries.
 
 
 
